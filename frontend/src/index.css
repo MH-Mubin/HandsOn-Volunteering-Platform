@@ -1,0 +1,147 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+label {
+  font-size: 20px;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #fff;
+  padding: 32px 48px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 8px 8px 24px 0px rgb(83, 85, 107);
+}
+
+.container > h1 {
+  margin-bottom: 20px;
+}
+
+.container > form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.container div {
+  display: flex;
+  flex-direction: column;
+}
+
+.container input {
+  width: 100%;
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+.container input::placeholder {
+  font-size: 12px;
+  font-style: italic;
+}
+
+button {
+  background-color: purple;
+  border: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+/* File: frontend/src/styles/Home.css */
+
+/* File: frontend/src/styles/Home.css */
+
+.home-container {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.home-header {
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  padding: 15px 0;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.home-main {
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 50px;
+  padding: 0 20px;
+}
+
+.home-main h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.home-main p {
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0 auto 20px;
+}
+
+.home-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.signup-button,
+.events-button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  display: inline-block;
+}
+
+.signup-button {
+  background-color: #28a745;
+}
+
+.events-button {
+  background-color: #007bff;
+}
+
+.home-footer {
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 30px;
+  color: #555;
+  background-color: #e9ecef;
+}

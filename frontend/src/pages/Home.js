@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
-import { handleError, handleSuccess } from '../utils';
+import { handleSuccess } from '../utils';
 
 function Home() {
     const [loggedInUser, setLoggedInUser] = useState('');
@@ -18,25 +18,6 @@ function Home() {
             navigate('/login');
         }, 1000)
     }
-
-    const fetchProducts = async () => {
-        try {
-            const url = "http://localhost:8080/products";
-            const headers = {
-                headers: {
-                    'Authorization': localStorage.getItem('token')
-                }
-            }
-            const response = await fetch(url, headers);
-            const result = await response.json();
-            console.log(result);
-        } catch (err) {
-            handleError(err);
-        }
-    }
-    useEffect(() => {
-        fetchProducts()
-    }, [])
 
     return (
         <div><div className="home-container">

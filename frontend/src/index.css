@@ -74,7 +74,7 @@ button {
 
 /* File: frontend/src/styles/Home.css */
 
-.home-container {
+/* .home-container {
   width: 100vw;
   min-height: 100vh;
   display: flex;
@@ -83,7 +83,7 @@ button {
   justify-content: center;
   background-color: #f4f4f4;
   text-align: center;
-}
+} */
 
 .home-header {
   width: 100%;
@@ -144,4 +144,17 @@ button {
   margin-top: 30px;
   color: #555;
   background-color: #e9ecef;
+}
+.home-container {
+  background-image: url("../public/bg.jpg"); /* Path to the background image */
+  background-size: cover; /* Ensure the image covers the entire background */
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Full-screen height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(255, 255, 255); /* Adjust text color for visibility */
 }

@@ -9,32 +9,32 @@ The Project allows users to discover volunteer opportunities, form teams, track 
 # Features
 
 1. User Registration & Profile Management
-   --Secure signup & login using JWT authentication, profile management with user skills and causes, and volunteer history & contribution tracking.
+   -- Secure signup & login using JWT authentication, profile management with user skills and causes, and volunteer history & contribution tracking.
 2. Discover & Join Volunteer Events
-   --Users and organizations can create volunteer events, browse upcoming events with filters by category, location, and availability, and register with one-click event registration & attendee tracking
+   -- Users and organizations can create volunteer events, browse upcoming events with filters by category, location, and availability, and register with one-click event registration & attendee tracking
 3. Community Help Requests
-   --Users can post requests for ongoing community support, coordinate through comments or private messaging, and prioritize responses with urgency levels.
+   -- Users can post requests for ongoing community support, coordinate through comments or private messaging, and prioritize responses with urgency levels.
 4. Form Teams & Group Initiatives
-   --Users can create public or private teams, access a dedicated team dashboard, and compete in a leaderboard showcasing top contributing teams.
+   -- Users can create public or private teams, access a dedicated team dashboard, and compete in a leaderboard showcasing top contributing teams.
 5. Impact Tracking & Social Recognition
-   --Volunteer hours logging, point-based reward system (5 points per hour), auto-generated certificates for milestones, and a public leaderboard ranking top volunteers.
+   -- Volunteer hours logging, point-based reward system (5 points per hour), auto-generated certificates for milestones, and a public leaderboard ranking top volunteers.
 
 # Technologies used
 
-Frontend: React.js, HTML, JavaScript
-Style: Raw CSS
-Backend: Node.js, Express.js
-Database: MongoDB
-Authentication: JWT (JSON Web Token)
-Version Control: Git
+-- Frontend: React.js, HTML, JavaScript
+-- Style: Raw CSS
+-- Backend: Node.js, Express.js
+-- Database: MongoDB
+-- Authentication: JWT (JSON Web Token)
+-- Version Control: Git
 
 # Setup Instructions
 
 1. Clone the Repository
 2. Install Dependencies
-   Start Backend Server: commands in terminal
+   -- Start Backend Server: commands in terminal
    cd backend >> npm i bcrypt cors dotenv express joi jsonwebtoken mongoose nodemon >> npm start
-   Start Frontend Server: commands in terminal
+   -- Start Frontend Server: commands in terminal
    cd .. >> cd frontend >> npm i >> npm start
 
 3. Configure Environment Variables

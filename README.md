@@ -21,12 +21,12 @@ The Project allows users to discover volunteer opportunities, form teams, track 
 
 # Technologies used
 
-Frontend: React.js, HTML, JavaScript
-Style: Raw CSS
-Backend: Node.js, Express.js
-Database: MongoDB
-Authentication: JWT (JSON Web Token)
-Version Control: Git
+1. Frontend: React.js, HTML, JavaScript
+2. Style: Raw CSS
+3. Backend: Node.js, Express.js
+4. Database: MongoDB
+5. Authentication: JWT (JSON Web Token)
+6. Version Control: Git
 
 # Setup Instructions
 
